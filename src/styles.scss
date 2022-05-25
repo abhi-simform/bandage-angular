@@ -1,1 +1,97 @@
-/* You can add global styles to this file, and also import other style files */
+// Colors
+$dark: #252b42;
+$muted: #bdbdbd;
+$light: #fafafa;
+$text-muted: $muted;
+$body-color: #737373;
+$secondary: #23a6f0;
+$primary: #2dc071;
+$success: #23856d;
+$warning: #e77c40;
+$danger: #e74040;
+// Containers
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1100px,
+  xxl: 1150px,
+);
+
+// Setting fonts
+$font-family-sans-serif: "Montserrat", system-ui, -apple-system, "Segoe UI",
+  Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+  "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+// Setting font sizes
+$font-size-base: 0.875rem;
+$font-size-sm: 0.75rem;
+$h1-font-size: 3.625rem;
+$h2-font-size: 2.5rem;
+$h3-font-size: 1.5rem;
+$h4-font-size: 1.25rem;
+$h5-font-size: 1rem;
+$h6-font-size: 0.875rem;
+
+$font-sizes: (
+  1: $h1-font-size,
+  2: $h2-font-size,
+  3: $h3-font-size,
+  4: $h4-font-size,
+  5: $h5-font-size,
+  6: $h6-font-size,
+);
+
+// Setting font weight and color for headings
+$headings-font-weight: 700;
+$headings-color: $dark;
+
+// Disabling responsive font sizing
+$enable-rfs: false;
+
+// Setting spacer
+$spacer: 0.625rem;
+$spacers: (
+  0: 0,
+  1: $spacer * 0.5,
+  2: $spacer,
+  3: $spacer * 1.5,
+  4: $spacer * 2,
+  5: $spacer * 2.5,
+  6: $spacer * 3,
+  7: $spacer * 3.5,
+  8: $spacer * 4,
+  9: $spacer * 4.5,
+  10: $spacer * 5,
+  11: $spacer * 5.5,
+  12: $spacer * 6,
+  13: $spacer * 6.5,
+  14: $spacer * 7,
+  15: $spacer * 7.5,
+  16: $spacer * 8,
+  17: $spacer * 8.5,
+  18: $spacer * 9,
+  19: $spacer * 9.5,
+  20: $spacer * 10,
+);
+
+// Setting buttons
+$input-btn-padding-y: 0.938rem;
+$input-btn-padding-x: 2.5rem;
+$input-btn-padding-y-lg: 0.938rem;
+$input-btn-padding-x-lg: 2.5rem;
+$btn-font-weight: 700;
+
+$carousel-control-width: 5%;
+$carousel-control-opacity: 1;
+$carousel-indicator-height: 10px;
+$carousel-indicator-width: 60px;
+$carousel-indicator-spacer: 0px;
+
+// Global styles
+body {
+  letter-spacing: 0.2px;
+}
+
+/* Importing Bootstrap SCSS file. */
+@import "~bootstrap/scss/bootstrap";

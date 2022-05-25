@@ -1,0 +1,40 @@
+<section class="py-16">
+  <div class="container">
+    <div class="row">
+      <p class="text-secondary fw-bold fs-6 text-center mb-2">
+        Practice Advice
+      </p>
+      <h2 class="text-center mb-2">Featured Posts</h2>
+      <p class="text-center">
+        Problems trying to resolve the conflict between the two major realms of
+        Classical physics: Newtonian mechanics
+      </p>
+    </div>
+    <div class="row mt-16">
+      <div
+        *ngFor="let feature of featured"
+        class="col-md-4 g-2 position-relative"
+      >
+        <img src="{{ feature.image }}" class="img-fluid w-100" alt="" />
+        <div class="p-5 pb-7 shadow-sm">
+          <div class="mb-2">
+            <span *ngFor="let tag of feature.tags" class="me-3">{{ tag }}</span>
+          </div>
+          <h3 class="fs-4 fw-normal mb-2">{{ feature.title }}</h3>
+          <p class="mb-5">{{ feature.description }}</p>
+          <div class="d-flex justify-content-between mb-5">
+            <span>{{ feature.date }}</span
+            ><span>{{ feature.connemts }}</span>
+          </div>
+          <a href="#" class="text-decoration-none fw-bold text-body"
+            >Learn More</a
+          >
+        </div>
+        <span
+          class="position-absolute top-0 left-0 mt-4 ms-4 text-white bg-danger px-2 fw-bold rounded"
+          >New</span
+        >
+      </div>
+    </div>
+  </div>
+</section>
