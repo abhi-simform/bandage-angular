@@ -11,7 +11,7 @@ export interface Bestseller {
 export const bestseller = [
   {
     id: 1,
-    image: '../../../../assets/bestseller/bestseller01.jpg',
+    image: '../../../../assets/bestseller/bestseller01.webp',
     name: 'Graphic Design',
     category: 'English Department',
     oldPrice: '$16.48',
@@ -20,7 +20,7 @@ export const bestseller = [
   },
   {
     id: 2,
-    image: '../../../../assets/bestseller/bestseller02.jpg',
+    image: '../../../../assets/bestseller/bestseller02.webp',
     name: 'Graphic Design',
     category: 'English Department',
     oldPrice: '$16.48',
@@ -29,7 +29,7 @@ export const bestseller = [
   },
   {
     id: 3,
-    image: '../../../../assets/bestseller/bestseller03.jpg',
+    image: '../../../../assets/bestseller/bestseller03.webp',
     name: 'Graphic Design',
     category: 'English Department',
     oldPrice: '$16.48',
@@ -38,7 +38,7 @@ export const bestseller = [
   },
   {
     id: 4,
-    image: '../../../../assets/bestseller/bestseller04.jpg',
+    image: '../../../../assets/bestseller/bestseller04.webp',
     name: 'Graphic Design',
     category: 'English Department',
     oldPrice: '$16.48',
@@ -47,7 +47,7 @@ export const bestseller = [
   },
   {
     id: 5,
-    image: '../../../../assets/bestseller/bestseller05.jpg',
+    image: '../../../../assets/bestseller/bestseller05.webp',
     name: 'Graphic Design',
     category: 'English Department',
     oldPrice: '$16.48',
@@ -56,7 +56,7 @@ export const bestseller = [
   },
   {
     id: 6,
-    image: '../../../../assets/bestseller/bestseller06.jpg',
+    image: '../../../../assets/bestseller/bestseller06.webp',
     name: 'Graphic Design',
     category: 'English Department',
     oldPrice: '$16.48',
@@ -65,7 +65,7 @@ export const bestseller = [
   },
   {
     id: 7,
-    image: '../../../../assets/bestseller/bestseller07.jpg',
+    image: '../../../../assets/bestseller/bestseller07.webp',
     name: 'Graphic Design',
     category: 'English Department',
     oldPrice: '$16.48',
@@ -74,7 +74,7 @@ export const bestseller = [
   },
   {
     id: 8,
-    image: '../../../../assets/bestseller/bestseller08.jpg',
+    image: '../../../../assets/bestseller/bestseller08.webp',
     name: 'Graphic Design',
     category: 'English Department',
     oldPrice: '$16.48',
